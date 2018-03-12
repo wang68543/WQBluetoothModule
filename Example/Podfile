@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WQBluetoothModule_Example' do
+  pod 'WQBluetoothModule', :path => '../'
+
+  target 'WQBluetoothModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
