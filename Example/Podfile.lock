@@ -1,0 +1,16 @@
+PODS:
+  - WQBluetoothModule (0.1.0)
+
+DEPENDENCIES:
+  - WQBluetoothModule (from `../`)
+
+EXTERNAL SOURCES:
+  WQBluetoothModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WQBluetoothModule: 4c7723b4fa82350dc026f9bb42ff488d0713f0fd
+
+PODFILE CHECKSUM: e3989a5d7e232baee6c2fa71a75841f9c935868f
+
+COCOAPODS: 1.3.1

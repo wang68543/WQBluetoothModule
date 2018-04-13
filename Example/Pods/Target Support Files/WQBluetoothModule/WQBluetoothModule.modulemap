@@ -1,0 +1,6 @@
+framework module WQBluetoothModule {
+  umbrella header "WQBluetoothModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

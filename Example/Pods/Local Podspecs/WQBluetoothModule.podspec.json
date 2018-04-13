@@ -1,0 +1,22 @@
+{
+  "name": "WQBluetoothModule",
+  "version": "0.1.0",
+  "summary": "A short description of WQBluetoothModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WangQiang68543/WQBluetoothModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WangQiang68543": "1261496147@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/WangQiang68543/WQBluetoothModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WQBluetoothModule/Classes/*.swift"
+}
