@@ -8,25 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		00AC7B42E95E0F69EB551470B4F245F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0C8CC781C7D885D7071F2195D7C61F74 /* WQCharacteristicTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598F00EB23D724D906E85B2E6E8F767 /* WQCharacteristicTask.swift */; };
-		121247017F8E17FBAAC07BAA17F364D9 /* WQBLERequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC8801E78342B58B2CC1842BCB5B17 /* WQBLERequest.swift */; };
-		1EC76A90C7D7B51B75EB0E2F68F87C41 /* WQBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3E5861A8C7476C84E2FF6253EB158 /* WQBLEManager.swift */; };
-		416C23A68369E4F27F70171915D80C9C /* WQBLEError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E93F32940E918C107A36DFF8A47141 /* WQBLEError.swift */; };
-		422CE2A75311DA9AA6EE5652825733CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0C8CC781C7D885D7071F2195D7C61F74 /* WQCharacteristicTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6ADBD1CA10EC127F95877AED42AF5 /* WQCharacteristicTask.swift */; };
+		0D2DC394A0215AAD16144240150815DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		121247017F8E17FBAAC07BAA17F364D9 /* WQBLERequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C47380587390477B4443B5BE174695 /* WQBLERequest.swift */; };
+		1EC76A90C7D7B51B75EB0E2F68F87C41 /* WQBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEF32408A7A71036D7CB9F33FE13D83 /* WQBLEManager.swift */; };
+		416C23A68369E4F27F70171915D80C9C /* WQBLEError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5E207604D407E61143740F2E2F70B /* WQBLEError.swift */; };
 		4CE1BE5A7FFBFDB14EE5612EE54CFB9F /* Pods-WQBluetoothModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D14D536A0330B93D021BDAB554E778 /* Pods-WQBluetoothModule_Example-dummy.m */; };
-		51688B3AE0B3C87BD6B2B4B4741136B6 /* WQBluetoothModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB253681AFD6BCE5DD5257A2436683E /* WQBluetoothModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7944CA61B6AC54CB48F37826F44422CE /* WQBLESession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BAAAC961A9D14CDC06F680687FADF /* WQBLESession.swift */; };
-		98AA0A38CE3585EAEC39D4FA186B4327 /* WQBLENotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4A7D17604603A153ED2DC27FCDABF /* WQBLENotifications.swift */; };
+		51688B3AE0B3C87BD6B2B4B4741136B6 /* WQBluetoothModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B4245387AF2E96BA172A1D7FACCDA7 /* WQBluetoothModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7944CA61B6AC54CB48F37826F44422CE /* WQBLESession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E7712BFDF1A6C4E5B65CE5E439D1C /* WQBLESession.swift */; };
+		98AA0A38CE3585EAEC39D4FA186B4327 /* WQBLENotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235E97B7A027C4DBFA3FB2A11DC32987 /* WQBLENotifications.swift */; };
 		AB0DB41F4C8DB949033FC6074AFBDA80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BDF18A0E38A94D607941126F93649DAA /* Pods-WQBluetoothModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD6331B9671BEF1CF67CA2E4852D9 /* Pods-WQBluetoothModule_Tests-dummy.m */; };
-		D931FCB585BB57E029A8D7E7632D68A7 /* WQBluetoothModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D192762A1BB9A63EBD6AE3D4ED1D50 /* WQBluetoothModule-dummy.m */; };
+		D1F6460B6CF475DBA878E6B2D7462086 /* Pods-WQBluetoothModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE1D00C03B50D2589EBB1343F7042DE /* Pods-WQBluetoothModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D931FCB585BB57E029A8D7E7632D68A7 /* WQBluetoothModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D11A8D30C3E7280B61FB5DA1FB360E /* WQBluetoothModule-dummy.m */; };
 		DE31496CD3E5A48E0684616013141966 /* Pods-WQBluetoothModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CD6FAA3D9E3BD953CFDEC7AAF33062 /* Pods-WQBluetoothModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2450AA2E827B766CC6CDB0F82DCEA71 /* WQBLEResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF510609CE655B417F8B7E124BF3F44 /* WQBLEResponse.swift */; };
-		E5B8A1808470F4027A6E7F5AB7ADDFD6 /* Pods-WQBluetoothModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE1D00C03B50D2589EBB1343F7042DE /* Pods-WQBluetoothModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4263E16B588DF667AFDD91BBA4E71E2 /* WQDescriptorTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C96CC96B5890402579486FF1DE29C4 /* WQDescriptorTask.swift */; };
+		E2450AA2E827B766CC6CDB0F82DCEA71 /* WQBLEResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B63B2A822E332FDD24521889D46A7 /* WQBLEResponse.swift */; };
+		E85F413C90F1CFD3B969572CBB36949D /* Pods-WQBluetoothModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD6331B9671BEF1CF67CA2E4852D9 /* Pods-WQBluetoothModule_Tests-dummy.m */; };
+		F4263E16B588DF667AFDD91BBA4E71E2 /* WQDescriptorTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F05207EF56C216F8AEB72D4410A4B /* WQDescriptorTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BC0F5602711C709D77A5FFE05D5B93FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396B3D4B64865CF86A3B66EBF39C8852;
+			remoteInfo = "Pods-WQBluetoothModule_Example";
+		};
 		C1E158098A0F377A29150BE55669F528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -37,45 +44,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F4A7D17604603A153ED2DC27FCDABF /* WQBLENotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLENotifications.swift; path = WQBluetoothModule/Classes/WQBLENotifications.swift; sourceTree = "<group>"; };
-		0598F00EB23D724D906E85B2E6E8F767 /* WQCharacteristicTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQCharacteristicTask.swift; path = WQBluetoothModule/Classes/WQCharacteristicTask.swift; sourceTree = "<group>"; };
-		06D192762A1BB9A63EBD6AE3D4ED1D50 /* WQBluetoothModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQBluetoothModule-dummy.m"; sourceTree = "<group>"; };
-		07720B9D0F2E3C1F9B9E2ABDA6BC5D01 /* WQBluetoothModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQBluetoothModule.modulemap; sourceTree = "<group>"; };
+		062F05207EF56C216F8AEB72D4410A4B /* WQDescriptorTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQDescriptorTask.swift; path = WQBluetoothModule/Classes/WQDescriptorTask.swift; sourceTree = "<group>"; };
 		0B0D116AFAF1B4299B7ED9B8B8845074 /* Pods-WQBluetoothModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQBluetoothModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		14BA041BD81DA097B4F0C6623F1CC924 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19C3E5861A8C7476C84E2FF6253EB158 /* WQBLEManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLEManager.swift; path = WQBluetoothModule/Classes/WQBLEManager.swift; sourceTree = "<group>"; };
 		1CE1D00C03B50D2589EBB1343F7042DE /* Pods-WQBluetoothModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQBluetoothModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		235E97B7A027C4DBFA3FB2A11DC32987 /* WQBLENotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLENotifications.swift; path = WQBluetoothModule/Classes/WQBLENotifications.swift; sourceTree = "<group>"; };
 		2931579AFB0F87754DCC5D00CA060F02 /* Pods-WQBluetoothModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQBluetoothModule_Tests-resources.sh"; sourceTree = "<group>"; };
-		32C96CC96B5890402579486FF1DE29C4 /* WQDescriptorTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQDescriptorTask.swift; path = WQBluetoothModule/Classes/WQDescriptorTask.swift; sourceTree = "<group>"; };
+		2C4B63B2A822E332FDD24521889D46A7 /* WQBLEResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLEResponse.swift; path = WQBluetoothModule/Classes/WQBLEResponse.swift; sourceTree = "<group>"; };
+		3CEF32408A7A71036D7CB9F33FE13D83 /* WQBLEManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLEManager.swift; path = WQBluetoothModule/Classes/WQBLEManager.swift; sourceTree = "<group>"; };
+		41B4245387AF2E96BA172A1D7FACCDA7 /* WQBluetoothModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQBluetoothModule-umbrella.h"; sourceTree = "<group>"; };
 		47EAFA0A443FDE1C07963A7394FDA02B /* Pods_WQBluetoothModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQBluetoothModule_Tests.framework; path = "Pods-WQBluetoothModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB5E207604D407E61143740F2E2F70B /* WQBLEError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLEError.swift; path = WQBluetoothModule/Classes/WQBLEError.swift; sourceTree = "<group>"; };
 		561E6157DB9C3F2C9DADD67329573A2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		595769EF2FDC183C2A45F168524B04D4 /* Pods_WQBluetoothModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQBluetoothModule_Example.framework; path = "Pods-WQBluetoothModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC6ADBD1CA10EC127F95877AED42AF5 /* WQCharacteristicTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQCharacteristicTask.swift; path = WQBluetoothModule/Classes/WQCharacteristicTask.swift; sourceTree = "<group>"; };
 		64CD6FAA3D9E3BD953CFDEC7AAF33062 /* Pods-WQBluetoothModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQBluetoothModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B0BAAAC961A9D14CDC06F680687FADF /* WQBLESession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLESession.swift; path = WQBluetoothModule/Classes/WQBLESession.swift; sourceTree = "<group>"; };
+		687E7712BFDF1A6C4E5B65CE5E439D1C /* WQBLESession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLESession.swift; path = WQBluetoothModule/Classes/WQBLESession.swift; sourceTree = "<group>"; };
+		6C6BAF9EE68C3220587407A0D33234FB /* WQBluetoothModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQBluetoothModule.modulemap; sourceTree = "<group>"; };
 		6CBD845474DC2334F2AD5CF5354E071A /* Pods-WQBluetoothModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQBluetoothModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		709D904AB811ADF99F26C5A28BC1E145 /* Pods-WQBluetoothModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQBluetoothModule_Example-resources.sh"; sourceTree = "<group>"; };
 		77EBA921D40D4D19DB5093BDDA171B46 /* Pods-WQBluetoothModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQBluetoothModule_Example.modulemap"; sourceTree = "<group>"; };
 		79D20F046A58B25D4569BD2BBD3313C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8011E74E72C16B2C5D0B3233C997E19A /* WQBluetoothModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQBluetoothModule-prefix.pch"; sourceTree = "<group>"; };
+		7B90CAE4BE6A207B6E5D6779AF29A248 /* WQBluetoothModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQBluetoothModule-prefix.pch"; sourceTree = "<group>"; };
+		7F692C17718F90DB64FDB70DF42DB91F /* WQBluetoothModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQBluetoothModule.xcconfig; sourceTree = "<group>"; };
 		87488A565C2167319EC4B1E164E60DF1 /* Pods-WQBluetoothModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQBluetoothModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		91C47380587390477B4443B5BE174695 /* WQBLERequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLERequest.swift; path = WQBluetoothModule/Classes/WQBLERequest.swift; sourceTree = "<group>"; };
+		93646FD2FD4BDA33CF76E971EFAEE937 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		949278C5F9F71AA3C138DF312C3D8DDF /* WQBluetoothModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQBluetoothModule.framework; path = WQBluetoothModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97EC8801E78342B58B2CC1842BCB5B17 /* WQBLERequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLERequest.swift; path = WQBluetoothModule/Classes/WQBLERequest.swift; sourceTree = "<group>"; };
+		9D0F89DF57A7B0BCDF154692099E57EC /* WQBluetoothModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WQBluetoothModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A235ECF455174F1E3F04442E4D85611A /* Pods-WQBluetoothModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQBluetoothModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5A01A40F5A8196C0326DA2DDC4A503B /* Pods-WQBluetoothModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQBluetoothModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ACF510609CE655B417F8B7E124BF3F44 /* WQBLEResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLEResponse.swift; path = WQBluetoothModule/Classes/WQBLEResponse.swift; sourceTree = "<group>"; };
-		B8E93F32940E918C107A36DFF8A47141 /* WQBLEError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WQBLEError.swift; path = WQBluetoothModule/Classes/WQBLEError.swift; sourceTree = "<group>"; };
+		A84E6A5A31B058D7781C21810601D663 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BFDBD6331B9671BEF1CF67CA2E4852D9 /* Pods-WQBluetoothModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQBluetoothModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		C18341111B2E36E2027D1181C534B53D /* Pods-WQBluetoothModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQBluetoothModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2CED292179EE774423BEAF74607C266 /* Pods-WQBluetoothModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQBluetoothModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C697F7BB54D6CC8F30170CF8664A20FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9D11A8D30C3E7280B61FB5DA1FB360E /* WQBluetoothModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQBluetoothModule-dummy.m"; sourceTree = "<group>"; };
 		CADD85EFAEC27F9DB6889708831FA2BB /* Pods-WQBluetoothModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQBluetoothModule_Tests.modulemap"; sourceTree = "<group>"; };
 		CD2ED8A2469CB507A64EF3EB2499F3A6 /* Pods-WQBluetoothModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQBluetoothModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D062761CC692FC2675D734DD72186CA9 /* Pods-WQBluetoothModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQBluetoothModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DE39D890406B06E56560206716C92DE6 /* Pods-WQBluetoothModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQBluetoothModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E08E1B74C525B3BD8B1471096CFA9626 /* WQBluetoothModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQBluetoothModule.xcconfig; sourceTree = "<group>"; };
 		E6D14D536A0330B93D021BDAB554E778 /* Pods-WQBluetoothModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQBluetoothModule_Example-dummy.m"; sourceTree = "<group>"; };
-		FAB253681AFD6BCE5DD5257A2436683E /* WQBluetoothModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQBluetoothModule-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +97,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E672DA08DBFDABF6465243174FC06F7 /* Frameworks */ = {
+		A708821638C7214C5169BC1CD9D741D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422CE2A75311DA9AA6EE5652825733CD /* Foundation.framework in Frameworks */,
+				0D2DC394A0215AAD16144240150815DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,23 +116,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0018C4D72345B1360776FEE9AEC08D3D /* WQBluetoothModule */ = {
+			isa = PBXGroup;
+			children = (
+				4BB5E207604D407E61143740F2E2F70B /* WQBLEError.swift */,
+				3CEF32408A7A71036D7CB9F33FE13D83 /* WQBLEManager.swift */,
+				235E97B7A027C4DBFA3FB2A11DC32987 /* WQBLENotifications.swift */,
+				91C47380587390477B4443B5BE174695 /* WQBLERequest.swift */,
+				2C4B63B2A822E332FDD24521889D46A7 /* WQBLEResponse.swift */,
+				687E7712BFDF1A6C4E5B65CE5E439D1C /* WQBLESession.swift */,
+				5BC6ADBD1CA10EC127F95877AED42AF5 /* WQCharacteristicTask.swift */,
+				062F05207EF56C216F8AEB72D4410A4B /* WQDescriptorTask.swift */,
+				D2313142A9F7225746B69792984E37DD /* Pod */,
+				4AD2AE7076D362AC4FF011402FDD1FD5 /* Support Files */,
+			);
+			name = WQBluetoothModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0A508A09FB8CC1D352E769D683EDF621 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0018C4D72345B1360776FEE9AEC08D3D /* WQBluetoothModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4AD2AE7076D362AC4FF011402FDD1FD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93646FD2FD4BDA33CF76E971EFAEE937 /* Info.plist */,
+				6C6BAF9EE68C3220587407A0D33234FB /* WQBluetoothModule.modulemap */,
+				7F692C17718F90DB64FDB70DF42DB91F /* WQBluetoothModule.xcconfig */,
+				C9D11A8D30C3E7280B61FB5DA1FB360E /* WQBluetoothModule-dummy.m */,
+				7B90CAE4BE6A207B6E5D6779AF29A248 /* WQBluetoothModule-prefix.pch */,
+				41B4245387AF2E96BA172A1D7FACCDA7 /* WQBluetoothModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WQBluetoothModule";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7E0D8F3D0D5CE0B0C59913FADD454B02 /* Development Pods */,
+				0A508A09FB8CC1D352E769D683EDF621 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E3C1124F4BDB8B3E82D207B7D85BD57D /* Products */,
 				E113F90A09C924CACCF13563AD180A53 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E0D8F3D0D5CE0B0C59913FADD454B02 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D3056EE2FDFA23D748188FBBBFDA476A /* WQBluetoothModule */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9ADD6C770ADDB2638A06C69BF299916F /* Pods-WQBluetoothModule_Tests */ = {
@@ -151,21 +193,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D3056EE2FDFA23D748188FBBBFDA476A /* WQBluetoothModule */ = {
+		D2313142A9F7225746B69792984E37DD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B8E93F32940E918C107A36DFF8A47141 /* WQBLEError.swift */,
-				19C3E5861A8C7476C84E2FF6253EB158 /* WQBLEManager.swift */,
-				00F4A7D17604603A153ED2DC27FCDABF /* WQBLENotifications.swift */,
-				97EC8801E78342B58B2CC1842BCB5B17 /* WQBLERequest.swift */,
-				ACF510609CE655B417F8B7E124BF3F44 /* WQBLEResponse.swift */,
-				6B0BAAAC961A9D14CDC06F680687FADF /* WQBLESession.swift */,
-				0598F00EB23D724D906E85B2E6E8F767 /* WQCharacteristicTask.swift */,
-				32C96CC96B5890402579486FF1DE29C4 /* WQDescriptorTask.swift */,
-				DAEE29F992B354333D0EE69EBDC95A37 /* Support Files */,
+				C697F7BB54D6CC8F30170CF8664A20FF /* LICENSE */,
+				A84E6A5A31B058D7781C21810601D663 /* README.md */,
+				9D0F89DF57A7B0BCDF154692099E57EC /* WQBluetoothModule.podspec */,
 			);
-			name = WQBluetoothModule;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -174,20 +209,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DAEE29F992B354333D0EE69EBDC95A37 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				14BA041BD81DA097B4F0C6623F1CC924 /* Info.plist */,
-				07720B9D0F2E3C1F9B9E2ABDA6BC5D01 /* WQBluetoothModule.modulemap */,
-				E08E1B74C525B3BD8B1471096CFA9626 /* WQBluetoothModule.xcconfig */,
-				06D192762A1BB9A63EBD6AE3D4ED1D50 /* WQBluetoothModule-dummy.m */,
-				8011E74E72C16B2C5D0B3233C997E19A /* WQBluetoothModule-prefix.pch */,
-				FAB253681AFD6BCE5DD5257A2436683E /* WQBluetoothModule-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WQBluetoothModule";
 			sourceTree = "<group>";
 		};
 		E113F90A09C924CACCF13563AD180A53 /* Targets Support Files */ = {
@@ -230,19 +251,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4A2B16A203BE4D79290E4AB96DE044D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F6460B6CF475DBA878E6B2D7462086 /* Pods-WQBluetoothModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A14927FD15F6C0918910319C0FD28649 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE31496CD3E5A48E0684616013141966 /* Pods-WQBluetoothModule_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9FAEB4A2112BDC3B5E4C65D9B542B69 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5B8A1808470F4027A6E7F5AB7ADDFD6 /* Pods-WQBluetoothModule_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +278,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		36D808698AD7E9028316378AFA97F201 /* Pods-WQBluetoothModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB79EA7305851A8C95CE862898D4EED /* Build configuration list for PBXNativeTarget "Pods-WQBluetoothModule_Tests" */;
+			buildPhases = (
+				5EF73CE947FB5B7D48DB09E7043C70B5 /* Sources */,
+				A708821638C7214C5169BC1CD9D741D4 /* Frameworks */,
+				4A2B16A203BE4D79290E4AB96DE044D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E72E6A9366D2795D6BC07C55AAA12F /* PBXTargetDependency */,
+			);
+			name = "Pods-WQBluetoothModule_Tests";
+			productName = "Pods-WQBluetoothModule_Tests";
+			productReference = 47EAFA0A443FDE1C07963A7394FDA02B /* Pods_WQBluetoothModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		396B3D4B64865CF86A3B66EBF39C8852 /* Pods-WQBluetoothModule_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40D3A4E2E99E2E0101E481858ACA953D /* Build configuration list for PBXNativeTarget "Pods-WQBluetoothModule_Example" */;
@@ -292,23 +331,6 @@
 			productReference = 949278C5F9F71AA3C138DF312C3D8DDF /* WQBluetoothModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F3AD14D3B431950F3C1147507782F939 /* Pods-WQBluetoothModule_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A8EA5FD682EC54A9BD6F6CBA937061B /* Build configuration list for PBXNativeTarget "Pods-WQBluetoothModule_Tests" */;
-			buildPhases = (
-				1D5C8645F9B15D346D704D02C2CBB17F /* Sources */,
-				4E672DA08DBFDABF6465243174FC06F7 /* Frameworks */,
-				C9FAEB4A2112BDC3B5E4C65D9B542B69 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WQBluetoothModule_Tests";
-			productName = "Pods-WQBluetoothModule_Tests";
-			productReference = 47EAFA0A443FDE1C07963A7394FDA02B /* Pods_WQBluetoothModule_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -331,7 +353,7 @@
 			projectRoot = "";
 			targets = (
 				396B3D4B64865CF86A3B66EBF39C8852 /* Pods-WQBluetoothModule_Example */,
-				F3AD14D3B431950F3C1147507782F939 /* Pods-WQBluetoothModule_Tests */,
+				36D808698AD7E9028316378AFA97F201 /* Pods-WQBluetoothModule_Tests */,
 				CF830EA3C4182D141C8019B22561C150 /* WQBluetoothModule */,
 			);
 		};
@@ -346,11 +368,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D5C8645F9B15D346D704D02C2CBB17F /* Sources */ = {
+		5EF73CE947FB5B7D48DB09E7043C70B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF18A0E38A94D607941126F93649DAA /* Pods-WQBluetoothModule_Tests-dummy.m in Sources */,
+				E85F413C90F1CFD3B969572CBB36949D /* Pods-WQBluetoothModule_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +395,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		51E72E6A9366D2795D6BC07C55AAA12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WQBluetoothModule_Example";
+			target = 396B3D4B64865CF86A3B66EBF39C8852 /* Pods-WQBluetoothModule_Example */;
+			targetProxy = BC0F5602711C709D77A5FFE05D5B93FF /* PBXContainerItemProxy */;
+		};
 		DB68E204E18F5A0FA5AD6E6AA42F670D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WQBluetoothModule;
@@ -382,169 +410,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DF89E01F14640B7874B98F1C2BF2FB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E08E1B74C525B3BD8B1471096CFA9626 /* WQBluetoothModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WQBluetoothModule/WQBluetoothModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WQBluetoothModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WQBluetoothModule/WQBluetoothModule.modulemap";
-				PRODUCT_NAME = WQBluetoothModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3D123AB9AEE0555AD1A7F78AAD73B377 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CBD845474DC2334F2AD5CF5354E071A /* Pods-WQBluetoothModule_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WQBluetoothModule_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WQBluetoothModule_Example/Pods-WQBluetoothModule_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WQBluetoothModule_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		54E1477C9A40FDC55310FC01922D9E2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E08E1B74C525B3BD8B1471096CFA9626 /* WQBluetoothModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WQBluetoothModule/WQBluetoothModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WQBluetoothModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WQBluetoothModule/WQBluetoothModule.modulemap";
-				PRODUCT_NAME = WQBluetoothModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5F480EECE1823532B456012B938FC73B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD2ED8A2469CB507A64EF3EB2499F3A6 /* Pods-WQBluetoothModule_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Pods-WQBluetoothModule_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WQBluetoothModule_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		61D03E7181A3B7C8D88CEC03846E7B60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A01A40F5A8196C0326DA2DDC4A503B /* Pods-WQBluetoothModule_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Pods-WQBluetoothModule_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WQBluetoothModule_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -576,6 +442,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -600,17 +467,115 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D3506286AF04CA7C219526DDE2334523 /* Release */ = {
+		1FB1B8FAFD848DFE9E2311BB1C8E5DBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2CED292179EE774423BEAF74607C266 /* Pods-WQBluetoothModule_Example.release.xcconfig */;
+			baseConfigurationReference = A5A01A40F5A8196C0326DA2DDC4A503B /* Pods-WQBluetoothModule_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Pods-WQBluetoothModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6907522013DA04C3751A839C71B9A184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F692C17718F90DB64FDB70DF42DB91F /* WQBluetoothModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQBluetoothModule/WQBluetoothModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQBluetoothModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQBluetoothModule/WQBluetoothModule.modulemap";
+				PRODUCT_MODULE_NAME = WQBluetoothModule;
+				PRODUCT_NAME = WQBluetoothModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70B4010FAC65E98A1D85552EE3AE0F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F692C17718F90DB64FDB70DF42DB91F /* WQBluetoothModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQBluetoothModule/WQBluetoothModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQBluetoothModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQBluetoothModule/WQBluetoothModule.modulemap";
+				PRODUCT_MODULE_NAME = WQBluetoothModule;
+				PRODUCT_NAME = WQBluetoothModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A310EDBC87B8E4A79D7B972779801E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBD845474DC2334F2AD5CF5354E071A /* Pods-WQBluetoothModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -630,7 +595,76 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WQBluetoothModule_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7B1E508EE215B10FAB6EF3CECAC0D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2ED8A2469CB507A64EF3EB2499F3A6 /* Pods-WQBluetoothModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQBluetoothModule_Tests/Pods-WQBluetoothModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCF0AE34FEAA831CCD401EF1E67F964A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CED292179EE774423BEAF74607C266 /* Pods-WQBluetoothModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQBluetoothModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQBluetoothModule_Example/Pods-WQBluetoothModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -641,7 +675,7 @@
 			};
 			name = Release;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -673,6 +707,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -693,7 +728,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -705,8 +739,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -714,17 +748,17 @@
 		40D3A4E2E99E2E0101E481858ACA953D /* Build configuration list for PBXNativeTarget "Pods-WQBluetoothModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D123AB9AEE0555AD1A7F78AAD73B377 /* Debug */,
-				D3506286AF04CA7C219526DDE2334523 /* Release */,
+				A310EDBC87B8E4A79D7B972779801E0F /* Debug */,
+				BCF0AE34FEAA831CCD401EF1E67F964A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A8EA5FD682EC54A9BD6F6CBA937061B /* Build configuration list for PBXNativeTarget "Pods-WQBluetoothModule_Tests" */ = {
+		6FB79EA7305851A8C95CE862898D4EED /* Build configuration list for PBXNativeTarget "Pods-WQBluetoothModule_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61D03E7181A3B7C8D88CEC03846E7B60 /* Debug */,
-				5F480EECE1823532B456012B938FC73B /* Release */,
+				1FB1B8FAFD848DFE9E2311BB1C8E5DBE /* Debug */,
+				B7B1E508EE215B10FAB6EF3CECAC0D3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -732,8 +766,8 @@
 		B09F3B3F489D8E0F17F9E0661E8986BE /* Build configuration list for PBXNativeTarget "WQBluetoothModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54E1477C9A40FDC55310FC01922D9E2D /* Debug */,
-				1DF89E01F14640B7874B98F1C2BF2FB6 /* Release */,
+				70B4010FAC65E98A1D85552EE3AE0F66 /* Debug */,
+				6907522013DA04C3751A839C71B9A184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

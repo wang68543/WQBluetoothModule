@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WQBluetoothModule'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = '便于与蓝牙设备交互的框架'
 
 # This description is used to generate tags and improve search results.
